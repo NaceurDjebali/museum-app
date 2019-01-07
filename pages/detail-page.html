@@ -1,5 +1,33 @@
 <html>
     <body>
-        <p>comment the pictures</p>
+            <main>
+                    <section id='content'></section>
+                
+                    <section id='comments'>
+                      <h2>Comments</h2>
+                      
+                      <section class='comment'>
+                        <h3>Arien said:</h3>
+                        <p>"This is definitely one of my favorites!"</p>
+                      </section>
+                    </section>
+                
+                    <form onsubmit="submitComment(); return false">
+                      <div class="formSection">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name">
+                      </div>
+                      <div class="formSection">
+                        <label for="msg">Message:</label>
+                        <textarea id="msg"></textarea>
+                      </div>
+                      <div class="button">
+                        <button type="default">Post your comment</button>
+                      </div>
+                    </form>
+                  </main> 
+        <footer>
+                <p>Made with ❤ at Codaisseur</p>
+            </footer>
     </body>
 </html>
