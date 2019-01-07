@@ -1,0 +1,16 @@
+body {
+background-color: darkslategray;
+text-align: center;
+}
+
+.flexcontainer {
+display: flex;
+flex-direction: column;
+margin: auto;
+}
+
+.gallery {
+display: flex;
+flex-direction: column;
+
+}
