@@ -320,6 +320,18 @@ const data = {
           url: "https://lh3.googleusercontent.com/C5XpeveNNlRpBhSMDrLU-eD9DxVZP9CJYhFFioDFj-L6PxI6CXVz0TLbqs5oKSzR7IcbBVLTU9jUxpOR4YB39y7qEGg"
         },
         productionPlaces: [ ]
-      }
+      },
+      
     ]
+  }
+
+  const paintings = data.artObjects;
+
+  for (let i = 0; i < paintings.length; i++) {
+const link = document.createElement("a");
+link.href = "/pages/detail-page.html";
+const image = document.createElement("img");
+image.alt = paintings[i].title;
+console.log(image)
+
   }

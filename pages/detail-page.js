@@ -20,6 +20,7 @@ function submitComment() {
     const name = inputField.value
     const textArea = document.getElementById('msg')
     const msg = textArea.value
+    
     if (doesNotPassAllValidations(name, msg)) {
         return null
     }
@@ -44,9 +45,5 @@ function submitComment() {
     inputField.value = null
     textArea.value = null
 
-    if (!name || !msg) {
-        return true
-    } else {
-        return false
-    }
-}
+    
+};
